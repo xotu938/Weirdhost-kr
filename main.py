@@ -16,7 +16,7 @@ class WeirdhostLogin:
     def __init__(self):
         """初始化，从环境变量读取配置"""
         self.url = os.getenv('WEIRDHOST_URL', 'https://hub.weirdhost.xyz')
-        self.server_urls = os.getenv('WEIRDHOST_SERVER_URLS', 'https://hub.weirdhost.xyz/server/38918fee/')
+        self.server_urls = os.getenv('WEIRDHOST_SERVER_URLS', 'https://hub.weirdhost.xyz/server/2db52500/')
         self.login_url = os.getenv('WEIRDHOST_LOGIN_URL', 'https://hub.weirdhost.xyz/auth/login')
         
         # 获取认证信息
